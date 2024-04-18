@@ -1,5 +1,5 @@
 
-After [installation](https://khulnasoft.github.io/Docs-MergeMate/installation/), there are three basic ways to invoke CodiumAI MergeMate:
+After [installation](https://khulnasoft.github.io/Docs-MergeMate/installation/), there are three basic ways to invoke KhulnaSoft MergeMate:
 
 1. Locally running a CLI command
 2. Online usage - by [commenting](https://github.com/Khulnasoft/mergemate/pull/229#issuecomment-1695021901) on a PR

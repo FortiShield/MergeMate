@@ -1,6 +1,6 @@
 ## Ignoring files from analysis
 
-In some cases, you may want to exclude specific files or directories from the analysis performed by CodiumAI MergeMate. This can be useful, for example, when you have files that are generated automatically or files that shouldn't be reviewed, like vendored code.
+In some cases, you may want to exclude specific files or directories from the analysis performed by KhulnaSoft MergeMate. This can be useful, for example, when you have files that are generated automatically or files that shouldn't be reviewed, like vendored code.
 
 To ignore files or directories, edit the **[ignore.toml](https://github.com/Khulnasoft/mergemate/blob/main/mergemate/settings/ignore.toml)** configuration file. This setting also exposes the following environment variables:
 
@@ -25,7 +25,7 @@ All MergeMate tools have a parameter called `extra_instructions`, that enables t
 
 ## Working with large PRs
 
-The default mode of CodiumAI is to have a single call per tool, using GPT-4, which has a token limit of 8000 tokens.
+The default mode of KhulnaSoft is to have a single call per tool, using GPT-4, which has a token limit of 8000 tokens.
 This mode provides a very good speed-quality-cost tradeoff, and can handle most PRs successfully.
 When the PR is above the token limit, it employs a [PR Compression strategy](../core-abilities/index.md).
 

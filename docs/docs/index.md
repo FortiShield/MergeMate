@@ -1,6 +1,6 @@
 # Overview
 
-CodiumAI MergeMate is an open-source tool to help efficiently review and handle pull requests.
+KhulnaSoft MergeMate is an open-source tool to help efficiently review and handle pull requests.
 
 - See the [Installation Guide](./installation/index.md) for instructions on installing and running the tool on different git platforms.
 
@@ -84,7 +84,7 @@ Check out the [PR Compression strategy](core-abilities/index.md) page for more d
 
 ## MergeMate Pro 💎
 
-[MergeMate Pro](https://www.khulnasoft.com/pricing/) is a hosted version of MergeMate, provided by CodiumAI. It is available for a monthly fee, and provides the following benefits:
+[MergeMate Pro](https://www.khulnasoft.com/pricing/) is a hosted version of MergeMate, provided by KhulnaSoft. It is available for a monthly fee, and provides the following benefits:
 
 1. **Fully managed** - We take care of everything for you - hosting, models, regular updates, and more. Installation is as simple as signing up and adding the MergeMate app to your GitHub\GitLab\BitBucket repo.
 2. **Improved privacy** - No data will be stored or used to train models. MergeMate Pro will employ zero data retention, and will use an OpenAI account with zero data retention.
@@ -109,5 +109,5 @@ Check out the [PR Compression strategy](core-abilities/index.md) page for more d
 If you host MergeMate with your OpenAI API key, it is between you and OpenAI. You can read their API data privacy policy here:
 https://openai.com/enterprise-privacy
 
-When using MergeMate Pro 💎, hosted by CodiumAI, we will not store any of your data, nor will we use it for training.
+When using MergeMate Pro 💎, hosted by KhulnaSoft, we will not store any of your data, nor will we use it for training.
 You will also benefit from an OpenAI account with zero data retention.

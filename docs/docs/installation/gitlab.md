@@ -17,4 +17,4 @@ WEBHOOK_SECRET=$(python -c "import secrets; print(secrets.token_hex(10))")
 5. Create a webhook in GitLab. Set the URL to the URL of your app's server. Set the secret token to the generated secret from step 2.
 In the "Trigger" section, check the ‘comments’ and ‘merge request events’ boxes.
 
-6. Test your installation by opening a merge request or commenting or a merge request using one of CodiumAI's commands.
+6. Test your installation by opening a merge request or commenting or a merge request using one of KhulnaSoft's commands.

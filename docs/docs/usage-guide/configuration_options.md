@@ -1,4 +1,4 @@
-The different tools and sub-tools used by CodiumAI MergeMate are adjustable via the **[configuration file](https://github.com/Khulnasoft/mergemate/blob/main/mergemate/settings/configuration.toml)**.
+The different tools and sub-tools used by KhulnaSoft MergeMate are adjustable via the **[configuration file](https://github.com/Khulnasoft/mergemate/blob/main/mergemate/settings/configuration.toml)**.
 
 In addition to general configuration options, each tool has its own configurations. For example, the `review` tool will use parameters from the [pr_reviewer](https://github.com/Khulnasoft/mergemate/blob/main/mergemate/settings/configuration.toml#L16) section in the configuration file.
 See the [Tools Guide](https://khulnasoft.github.io/Docs-MergeMate/tools/) for a detailed description of the different tools and their configurations.

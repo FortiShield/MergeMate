@@ -15,7 +15,7 @@ There are several ways to use self-hosted MergeMate:
 - [Azure DevOps](./azure.md)
 
 ## MergeMate Pro 💎
-MergeMate Pro, an app for GitHub\GitLab\BitBucket hosted by CodiumAI, is also available. 
+MergeMate Pro, an app for GitHub\GitLab\BitBucket hosted by KhulnaSoft, is also available. 
 <br>
 With MergeMate Pro Installation is as simple as signing up and adding the MergeMate app to your relevant repo.
 <br>

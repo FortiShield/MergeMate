@@ -97,7 +97,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/khulnasoft
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/CodiumAI
+      link: https://twitter.com/KhulnaSoft
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/khulnasoft/
   analytics:
@@ -130,4 +130,4 @@ markdown_extensions:
       permalink: true
   
 copyright: |
-  &copy; 2024 <a href="https://www.khulnasoft.com/"  target="_blank" rel="noopener">CodiumAI</a>
+  &copy; 2024 <a href="https://www.khulnasoft.com/"  target="_blank" rel="noopener">KhulnaSoft</a>

@@ -10,7 +10,7 @@
 
 </picture>
 <br/>
-CodiumAI MergeMate aims to help efficiently review and handle pull requests, by providing AI feedbacks and suggestions
+KhulnaSoft MergeMate aims to help efficiently review and handle pull requests, by providing AI feedbacks and suggestions
 </div>
 
 [![GitHub license](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/Khulnasoft/mergemate/blob/main/LICENSE)
@@ -225,10 +225,10 @@ ___
 
 ## Try it now
 
-Try the GPT-4 powered MergeMate instantly on _your public GitHub repository_. Just mention `@CodiumAI-Agent` and add the desired command in any PR comment. The agent will generate a response based on your command.
+Try the GPT-4 powered MergeMate instantly on _your public GitHub repository_. Just mention `@KhulnaSoft-Agent` and add the desired command in any PR comment. The agent will generate a response based on your command.
 For example, add a comment to any pull request with the following text:
 ```
-@CodiumAI-Agent /review
+@KhulnaSoft-Agent /review
 ```
 and the agent will respond with a review of your PR
 
@@ -236,7 +236,7 @@ and the agent will respond with a review of your PR
 
 
 To set up your own MergeMate, see the [Installation](https://khulnasoft.github.io/mergemate/installation/) section below.
-Note that when you set your own MergeMate or use CodiumAI hosted MergeMate, there is no need to mention `@CodiumAI-Agent ...`. Instead, directly start with the command, e.g., `/ask ...`.
+Note that when you set your own MergeMate or use KhulnaSoft hosted MergeMate, there is no need to mention `@KhulnaSoft-Agent ...`. Instead, directly start with the command, e.g., `/ask ...`.
 
 ---
 
@@ -279,7 +279,7 @@ Note that when you set your own MergeMate or use CodiumAI hosted MergeMate, ther
 [//]: # (- [Run as a Bitbucket Pipeline]&#40;https://khulnasoft.github.io/mergemate/installation/bitbucket/&#41;)
 
 ## MergeMate Pro 💎
-[MergeMate Pro](https://www.khulnasoft.com/pricing/) is a hosted version of MergeMate, provided by CodiumAI. It is available for a monthly fee, and provides the following benefits:
+[MergeMate Pro](https://www.khulnasoft.com/pricing/) is a hosted version of MergeMate, provided by KhulnaSoft. It is available for a monthly fee, and provides the following benefits:
 1. **Fully managed** - We take care of everything for you - hosting, models, regular updates, and more. Installation is as simple as signing up and adding the MergeMate app to your GitHub\GitLab\BitBucket repo.
 2. **Improved privacy** - No data will be stored or used to train models. MergeMate Pro will employ zero data retention, and will use an OpenAI account with zero data retention.
 3. **Improved support** - MergeMate Pro users will receive priority support, and will be able to request new features and capabilities.
@@ -313,7 +313,7 @@ Here are some advantages of MergeMate:
 If you host MergeMate with your OpenAI API key, it is between you and OpenAI. You can read their API data privacy policy here:
 https://openai.com/enterprise-privacy
 
-When using MergeMate Pro 💎, hosted by CodiumAI, we will not store any of your data, nor will we use it for training.
+When using MergeMate Pro 💎, hosted by KhulnaSoft, we will not store any of your data, nor will we use it for training.
 You will also benefit from an OpenAI account with zero data retention.
 
 ## Links
@@ -321,7 +321,7 @@ You will also benefit from an OpenAI account with zero data retention.
 [![Join our Discord community](https://raw.githubusercontent.com/Khulnasoft/khulnasoft-vscode-release/main/media/docs/Joincommunity.png)](https://discord.gg/kG35uSHDBc)
 
 - Discord community: https://discord.gg/kG35uSHDBc
-- CodiumAI site: https://khulnasoft.com
+- KhulnaSoft site: https://khulnasoft.com
 - Blog: https://www.khulnasoft.com/blog/
 - Troubleshooting: https://www.khulnasoft.com/blog/technical-faq-and-troubleshooting/
 - Support: support@khulnasoft.com
