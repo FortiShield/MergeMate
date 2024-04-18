@@ -9,7 +9,7 @@ from starlette.middleware import Middleware
 from starlette_context import context
 from starlette_context.middleware import RawContextMiddleware
 
-from mergemate.agent.mergemate import PRAgent
+from mergemate.agent.mergemate import MergeMate
 from mergemate.config_loader import get_settings, global_settings
 from mergemate.log import get_logger, setup_logger
 
@@ -43,7 +43,7 @@ async def handle_gerrit_request(action: Action, item: Item):
                 status_code=400,
                 detail="msg is required for ask command"
             )
-    await PRAgent().handle_request(
+    await MergeMate().handle_request(
         f"{item.project}:{item.refspec}",
         f"/{item.msg.strip()}"
     )

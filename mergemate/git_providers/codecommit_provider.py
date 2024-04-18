@@ -10,7 +10,7 @@ from ..algo.utils import load_large_diff
 from .git_provider import GitProvider
 from ..config_loader import get_settings
 from ..log import get_logger
-
+from mergemate.algo.language_handler import is_valid_file
 
 class PullRequestCCMimic:
     """
@@ -216,7 +216,7 @@ class CodeCommitProvider(GitProvider):
     def publish_labels(self, labels):
         return [""]  # not implemented yet
 
-    def get_pr_labels(self):
+    def get_pr_labels(self, update=False):
         return [""]  # not implemented yet
 
     def remove_initial_comment(self):
@@ -297,7 +297,7 @@ class CodeCommitProvider(GitProvider):
         settings_filename = ".mergemate.toml"
         return self.codecommit_client.get_file(self.repo_name, settings_filename, self.pr.source_commit, optional=True)
 
-    def add_eyes_reaction(self, issue_comment_id: int) -> Optional[int]:
+    def add_eyes_reaction(self, issue_comment_id: int, disable_eyes: bool = False) -> Optional[int]:
         get_logger().info("CodeCommit provider does not support eyes reaction yet")
         return True
 

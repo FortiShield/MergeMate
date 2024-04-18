@@ -288,7 +288,7 @@ class BitbucketServerProvider(GitProvider):
             "Bitbucket provider does not support issue comments yet"
         )
 
-    def add_eyes_reaction(self, issue_comment_id: int) -> Optional[int]:
+    def add_eyes_reaction(self, issue_comment_id: int, disable_eyes: bool = False) -> Optional[int]:
         return True
 
     def remove_reaction(self, issue_comment_id: int, reaction_id: int) -> bool:
@@ -347,7 +347,7 @@ class BitbucketServerProvider(GitProvider):
         pass
     
     # bitbucket does not support labels
-    def get_pr_labels(self):
+    def get_pr_labels(self, update=False):
         pass
 
     def _get_pr_comments_url(self):

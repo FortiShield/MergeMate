@@ -1,9 +1,9 @@
 {
-  "name": "CodiumAI MergeMate",
-  "description": "CodiumAI MergeMate",
+  "name": "KhulnaSoft MergeMate",
+  "description": "KhulnaSoft MergeMate",
   "key": "app_key",
   "vendor": {
-    "name": "CodiumAI",
+    "name": "KhulnaSoft",
     "url": "https://khulnasoft.com"
   },
   "authentication": {

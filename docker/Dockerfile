@@ -26,6 +26,10 @@ FROM base as gitlab_webhook
 ADD mergemate mergemate
 CMD ["python", "mergemate/servers/gitlab_webhook.py"]
 
+FROM base as azure_devops_webhook
+ADD mergemate mergemate
+CMD ["python", "mergemate/servers/azuredevops_server_webhook.py"]
+
 FROM base as test
 ADD requirements-dev.txt .
 RUN pip install -r requirements-dev.txt && rm requirements-dev.txt

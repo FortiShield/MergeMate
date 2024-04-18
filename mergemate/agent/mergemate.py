@@ -13,7 +13,9 @@ from mergemate.tools.pr_code_suggestions import PRCodeSuggestions
 from mergemate.tools.pr_config import PRConfig
 from mergemate.tools.pr_description import PRDescription
 from mergemate.tools.pr_generate_labels import PRGenerateLabels
+from mergemate.tools.pr_help_message import PRHelpMessage
 from mergemate.tools.pr_information_from_user import PRInformationFromUser
+from mergemate.tools.pr_line_questions import PR_LineQuestions
 from mergemate.tools.pr_questions import PRQuestions
 from mergemate.tools.pr_reviewer import PRReviewer
 from mergemate.tools.pr_similar_issue import PRSimilarIssue
@@ -32,9 +34,11 @@ command2class = {
     "improve_code": PRCodeSuggestions,
     "ask": PRQuestions,
     "ask_question": PRQuestions,
+    "ask_line": PR_LineQuestions,
     "update_changelog": PRUpdateChangelog,
     "config": PRConfig,
     "settings": PRConfig,
+    "help": PRHelpMessage,
     "similar_issue": PRSimilarIssue,
     "add_docs": PRAddDocs,
     "generate_labels": PRGenerateLabels,
@@ -42,7 +46,7 @@ command2class = {
 
 commands = list(command2class.keys())
 
-class PRAgent:
+class MergeMate:
     def __init__(self, ai_handler: partial[BaseAiHandler,] = LiteLLMAIHandler):
         self.ai_handler = ai_handler # will be initialized in run_action
         self.forbidden_cli_args = ['enable_auto_approval']
@@ -69,7 +73,11 @@ class PRAgent:
         args = update_settings_from_args(args)
 
         action = action.lstrip("/").lower()
+        if action not in command2class:
+            get_logger().debug(f"Unknown command: {action}")
+            return False
         with get_logger().contextualize(command=action):
+            get_logger().info("MergeMate request handler started", analytics=True)
             if action == "reflect_and_review":
                 get_settings().pr_reviewer.ask_and_reflect = True
             if action == "answer":
