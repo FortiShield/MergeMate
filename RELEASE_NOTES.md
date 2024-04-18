@@ -7,13 +7,13 @@
 - khulnasoft/mergemate:0.11-github_action
 
 ### Added::Algo
-- New section in `/describe` tool - [PR changes walkthrough](https://github.com/khulnasoft/mergemate/pull/509)
-- Improving PR Agent [prompts](https://github.com/khulnasoft/mergemate/pull/501)
-- Persistent tools (`/review`, `/describe`) now send an [update message](https://github.com/khulnasoft/mergemate/pull/499) after finishing
-- Add Amazon Bedrock [support](https://github.com/khulnasoft/mergemate/pull/483)
+- New section in `/describe` tool - [PR changes walkthrough](https://github.com/Khulnasoft/mergemate/pull/509)
+- Improving PR Agent [prompts](https://github.com/Khulnasoft/mergemate/pull/501)
+- Persistent tools (`/review`, `/describe`) now send an [update message](https://github.com/Khulnasoft/mergemate/pull/499) after finishing
+- Add Amazon Bedrock [support](https://github.com/Khulnasoft/mergemate/pull/483)
 
 ### Fixed
-- Update [dependencies](https://github.com/khulnasoft/mergemate/pull/503) in requirements.txt for Python 3.12
+- Update [dependencies](https://github.com/Khulnasoft/mergemate/pull/503) in requirements.txt for Python 3.12
 
 
 ## [Version 0.10] - 2023-11-15
@@ -25,17 +25,17 @@
 - khulnasoft/mergemate:0.10-github_action
 
 ### Added::Algo
-- Review tool now works with [persistent comments](https://github.com/khulnasoft/mergemate/pull/451) by default
-- Bitbucket now publishes review suggestions with [code links](https://github.com/khulnasoft/mergemate/pull/428)
-- Enabling to limit [max number of tokens](https://github.com/khulnasoft/mergemate/pull/437/files)
-- Support ['gpt-4-1106-preview'](https://github.com/khulnasoft/mergemate/pull/437/files) model
-- Support for Google's [Vertex AI](https://github.com/khulnasoft/mergemate/pull/436)
-- Implementing [thresholds](https://github.com/khulnasoft/mergemate/pull/423) for incremental PR reviews
-- Decoupled custom labels from [PR type](https://github.com/khulnasoft/mergemate/pull/431)
+- Review tool now works with [persistent comments](https://github.com/Khulnasoft/mergemate/pull/451) by default
+- Bitbucket now publishes review suggestions with [code links](https://github.com/Khulnasoft/mergemate/pull/428)
+- Enabling to limit [max number of tokens](https://github.com/Khulnasoft/mergemate/pull/437/files)
+- Support ['gpt-4-1106-preview'](https://github.com/Khulnasoft/mergemate/pull/437/files) model
+- Support for Google's [Vertex AI](https://github.com/Khulnasoft/mergemate/pull/436)
+- Implementing [thresholds](https://github.com/Khulnasoft/mergemate/pull/423) for incremental PR reviews
+- Decoupled custom labels from [PR type](https://github.com/Khulnasoft/mergemate/pull/431)
 
 ### Fixed
-- Fixed bug in [parsing quotes](https://github.com/khulnasoft/mergemate/pull/446) in CLI
-- Preserve [user-added labels](https://github.com/khulnasoft/mergemate/pull/433) in pull requests
+- Fixed bug in [parsing quotes](https://github.com/Khulnasoft/mergemate/pull/446) in CLI
+- Preserve [user-added labels](https://github.com/Khulnasoft/mergemate/pull/433) in pull requests
 - Bug fixes in GitLab and BitBucket
 
 ## [Version 0.9] - 2023-10-29
@@ -47,21 +47,21 @@
 - khulnasoft/mergemate:0.9-github_action
 
 ### Added::Algo
-- New tool - [generate_labels](https://github.com/khulnasoft/mergemate/blob/main/docs/GENERATE_CUSTOM_LABELS.md)
-- New ability to use [customize labels](https://github.com/khulnasoft/mergemate/blob/main/docs/GENERATE_CUSTOM_LABELS.md#how-to-enable-custom-labels) on the `review` and `describe` tools.
-- New tool - [add_docs](https://github.com/khulnasoft/mergemate/blob/main/docs/ADD_DOCUMENTATION.md)
+- New tool - [generate_labels](https://github.com/Khulnasoft/mergemate/blob/main/docs/GENERATE_CUSTOM_LABELS.md)
+- New ability to use [customize labels](https://github.com/Khulnasoft/mergemate/blob/main/docs/GENERATE_CUSTOM_LABELS.md#how-to-enable-custom-labels) on the `review` and `describe` tools.
+- New tool - [add_docs](https://github.com/Khulnasoft/mergemate/blob/main/docs/ADD_DOCUMENTATION.md)
 - GitHub Action: Can now use a `.mergemate.toml` file to control configuration parameters (see [Usage Guide](./Usage.md#working-with-github-action)).
-- GitHub App: Added ability to trigger tools on [push events](https://github.com/khulnasoft/mergemate/blob/main/Usage.md#github-app-automatic-tools-for-new-code-pr-push)
-- Support custom domain URLs for Azure devops integration (see [link](https://github.com/khulnasoft/mergemate/pull/381)).
-- PR Description default mode is now in [bullet points](https://github.com/khulnasoft/mergemate/blob/main/mergemate/settings/configuration.toml#L35).
+- GitHub App: Added ability to trigger tools on [push events](https://github.com/Khulnasoft/mergemate/blob/main/Usage.md#github-app-automatic-tools-for-new-code-pr-push)
+- Support custom domain URLs for Azure devops integration (see [link](https://github.com/Khulnasoft/mergemate/pull/381)).
+- PR Description default mode is now in [bullet points](https://github.com/Khulnasoft/mergemate/blob/main/mergemate/settings/configuration.toml#L35).
 
 ### Added::Documentation
-Significant documentation updates (see [Installation Guide](https://github.com/khulnasoft/mergemate/blob/main/INSTALL.md), [Usage Guide](https://github.com/khulnasoft/mergemate/blob/main/Usage.md), and [Tools Guide](https://github.com/khulnasoft/mergemate/blob/main/docs/TOOLS_GUIDE.md))
+Significant documentation updates (see [Installation Guide](https://github.com/Khulnasoft/mergemate/blob/main/INSTALL.md), [Usage Guide](https://github.com/Khulnasoft/mergemate/blob/main/Usage.md), and [Tools Guide](https://github.com/Khulnasoft/mergemate/blob/main/docs/TOOLS_GUIDE.md))
 
 ### Fixed
-- Fixed support for BitBucket pipeline (see [link](https://github.com/khulnasoft/mergemate/pull/386))
+- Fixed support for BitBucket pipeline (see [link](https://github.com/Khulnasoft/mergemate/pull/386))
 - Fixed a bug in `review -i` tool
-- Added blacklist for specific file extensions in `add_docs` tool (see [link](https://github.com/khulnasoft/mergemate/pull/385/))
+- Added blacklist for specific file extensions in `add_docs` tool (see [link](https://github.com/Khulnasoft/mergemate/pull/385/))
 
 ## [Version 0.8] - 2023-09-27
 - khulnasoft/mergemate:0.8
@@ -72,8 +72,8 @@ Significant documentation updates (see [Installation Guide](https://github.com/k
 - khulnasoft/mergemate:0.8-github_action
 
 ### Added::Algo
-- GitHub Action: Can control which tools will run automatically when a new PR is created. (see usage guide: https://github.com/khulnasoft/mergemate/blob/main/Usage.md#working-with-github-action)
-- Code suggestion tool: Will try to avoid an 'add comments' suggestion  (see https://github.com/khulnasoft/mergemate/pull/327)
+- GitHub Action: Can control which tools will run automatically when a new PR is created. (see usage guide: https://github.com/Khulnasoft/mergemate/blob/main/Usage.md#working-with-github-action)
+- Code suggestion tool: Will try to avoid an 'add comments' suggestion  (see https://github.com/Khulnasoft/mergemate/pull/327)
 
 ### Fixed
 - Gitlab: Fixed a bug of improper usage of pr_id
@@ -91,8 +91,8 @@ Significant documentation updates (see [Installation Guide](https://github.com/k
  
 ### Added::Algo
 - New tool /similar_issue - Currently on GitHub app and CLI: indexes the issues in the repo, find the most similar issues to the target issue.
-- Describe markers: Empower the /describe tool with a templating capability (see more details in https://github.com/khulnasoft/mergemate/pull/273).
-- New feature in the /review tool - added an estimated effort estimation to the review (https://github.com/khulnasoft/mergemate/pull/306).
+- Describe markers: Empower the /describe tool with a templating capability (see more details in https://github.com/Khulnasoft/mergemate/pull/273).
+- New feature in the /review tool - added an estimated effort estimation to the review (https://github.com/Khulnasoft/mergemate/pull/306).
 
 ### Added::Infrastructure
 - Implementation of a GitLab webhook.

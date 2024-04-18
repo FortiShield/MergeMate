@@ -16,11 +16,11 @@ permissions:
 jobs:
   mergemate_job:
     runs-on: ubuntu-latest
-    name: Run merge mate on every pull request
+    name: Run pr agent on every pull request
     steps:
-      - name: Merge Mate action step
+      - name: PR Agent action step
         id: mergemate
-        uses: KhulnaSoft/mergemate@main
+        uses: Khulnasoft/mergemate@main
         env:
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
           OPENAI_ORG: ${{ secrets.OPENAI_ORG }} # optional

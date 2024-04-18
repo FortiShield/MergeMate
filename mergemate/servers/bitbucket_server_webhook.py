@@ -11,7 +11,7 @@ from starlette.requests import Request
 from starlette.responses import JSONResponse
 from starlette_context.middleware import RawContextMiddleware
 
-from mergemate.agent.mergemate import PRAgent
+from mergemate.agent.mergemate import MergeMate
 from mergemate.config_loader import get_settings
 from mergemate.log import get_logger
 from mergemate.servers.utils import verify_signature
@@ -25,7 +25,7 @@ def handle_request(
     log_context["action"] = body
     log_context["api_url"] = url
     with get_logger().contextualize(**log_context):
-        background_tasks.add_task(PRAgent().handle_request, url, body)
+        background_tasks.add_task(MergeMate().handle_request, url, body)
 
 
 @router.post("/")

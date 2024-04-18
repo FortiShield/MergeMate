@@ -208,11 +208,11 @@ class GerritProvider(GitProvider):
         Comment = namedtuple('Comment', ['body'])
         return Comments([Comment(c['message']) for c in reversed(comments)])
 
-    def get_pr_labels(self):
+    def get_pr_labels(self, update=False):
         raise NotImplementedError(
             'Getting labels is not implemented for the gerrit provider')
 
-    def add_eyes_reaction(self, issue_comment_id: int):
+    def add_eyes_reaction(self, issue_comment_id: int, disable_eyes: bool = False):
         raise NotImplementedError(
             'Adding reactions is not implemented for the gerrit provider')
 

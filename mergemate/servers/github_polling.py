@@ -3,12 +3,12 @@ from datetime import datetime, timezone
 
 import aiohttp
 
-from mergemate.agent.mergemate import PRAgent
+from mergemate.agent.mergemate import MergeMate
 from mergemate.config_loader import get_settings
 from mergemate.git_providers import get_git_provider
 from mergemate.log import LoggingFormat, get_logger, setup_logger
 
-setup_logger(fmt=LoggingFormat.JSON)
+setup_logger(fmt=LoggingFormat.JSON, level="DEBUG")
 NOTIFICATION_URL = "https://api.github.com/notifications"
 
 
@@ -33,7 +33,7 @@ async def polling_loop():
     last_modified = [None]
     git_provider = get_git_provider()()
     user_id = git_provider.get_user_id()
-    agent = PRAgent()
+    agent = MergeMate()
     get_settings().set("CONFIG.PUBLISH_OUTPUT_PROGRESS", False)
 
     try:
