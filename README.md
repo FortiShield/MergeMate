@@ -21,12 +21,12 @@ CodiumAI MergeMate aims to help efficiently review and handle pull requests, by 
     </a>
 </div>
 
-### [Documentation](https://mergemate-docs.khulnasoft.com/)
-- See the [Installation Guide](https://mergemate-docs.khulnasoft.com/installation/) for instructions on installing MergeMate on different platforms.
+### [Documentation](https://khulnasoft.github.io/mergemate/)
+- See the [Installation Guide](https://khulnasoft.github.io/mergemate/installation/) for instructions on installing MergeMate on different platforms.
 
-- See the [Usage Guide](https://mergemate-docs.khulnasoft.com/usage-guide/) for instructions on running MergeMate tools via different interfaces, such as CLI, PR Comments, or by automatically triggering them when a new PR is opened.
+- See the [Usage Guide](https://khulnasoft.github.io/mergemate/usage-guide/) for instructions on running MergeMate tools via different interfaces, such as CLI, PR Comments, or by automatically triggering them when a new PR is opened.
 
-- See the [Tools Guide](https://mergemate-docs.khulnasoft.com/tools/) for a detailed description of the different tools, and the available configurations for each tool.
+- See the [Tools Guide](https://khulnasoft.github.io/mergemate/tools/) for a detailed description of the different tools, and the available configurations for each tool.
 
 
 ## Table of Contents
@@ -42,25 +42,25 @@ CodiumAI MergeMate aims to help efficiently review and handle pull requests, by 
 
 ### April 14, 2024
 You can now ask questions about images that appear in the comment, where the entire PR is considered as the context.
-see [here](https://mergemate-docs.khulnasoft.com/tools/ask/#ask-on-images) for more details.
+see [here](https://khulnasoft.github.io/mergemate/tools/ask/#ask-on-images) for more details.
 
 <kbd><img src="https://khulnasoft.com/images/mergemate/ask_images5.png" width="512"></kbd>
 
 ### March 24, 2024
-MergeMate is now available for easy installation via [pip](https://mergemate-docs.khulnasoft.com/installation/locally/#using-pip-package).
+MergeMate is now available for easy installation via [pip](https://khulnasoft.github.io/mergemate/installation/locally/#using-pip-package).
 
 ### March 17, 2024
-- A new feature is now available for the review tool: [`require_can_be_split_review`](https://mergemate-docs.khulnasoft.com/tools/review/#enabledisable-features). 
+- A new feature is now available for the review tool: [`require_can_be_split_review`](https://khulnasoft.github.io/mergemate/tools/review/#enabledisable-features). 
 If set to true, the tool will add a section that checks if the PR contains several themes, and can be split into smaller PRs.
 
 <kbd><img src="https://khulnasoft.com/images/mergemate/multiple_pr_themes.png" width="512"></kbd>
 
 ### March 10, 2024
-- A new [knowledge-base website](https://mergemate-docs.khulnasoft.com/) for MergeMate is now available. It includes detailed information about the different tools, usage guides and more, in an accessible and organized format.
+- A new [knowledge-base website](https://khulnasoft.github.io/mergemate/) for MergeMate is now available. It includes detailed information about the different tools, usage guides and more, in an accessible and organized format.
 
 ### March 8, 2024
 
-- A new tool, [Find Similar Code](https://mergemate-docs.khulnasoft.com/tools/similar_code/) 💎 is now available. 
+- A new tool, [Find Similar Code](https://khulnasoft.github.io/mergemate/tools/similar_code/) 💎 is now available. 
 <br>This tool retrieves the most similar code components from inside the organization's codebase, or from open-source code:
 
 <kbd><a href="https://khulnasoft.com/images/mergemate/similar_code.mp4"><img src="https://khulnasoft.com/images/mergemate/similar_code_global2.png" width="512"></a></kbd>
@@ -68,7 +68,7 @@ If set to true, the tool will add a section that checks if the PR contains sever
 (click on the image to see an instructional video)
 
 ### Feb 29, 2024
-- You can now use the repo's [wiki page](https://mergemate-docs.khulnasoft.com/usage-guide/configuration_options/) to set configurations for MergeMate 💎
+- You can now use the repo's [wiki page](https://khulnasoft.github.io/mergemate/usage-guide/configuration_options/) to set configurations for MergeMate 💎
 
 <kbd><img src="https://khulnasoft.com/images/mergemate/wiki_configuration.png" width="512"></kbd>
 
@@ -82,23 +82,23 @@ Supported commands per platform:
 |-------|-------------------------------------------------------------------------------------------------------------------|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 | TOOLS | Review                                                                                                            | ✅ | ✅ | ✅ | ✅ |
 |       | ⮑ Incremental                                                                                                     | ✅ |                    |                    |                    |
-|       | ⮑ [SOC2 Compliance](https://mergemate-docs.khulnasoft.com/tools/review/#soc2-ticket-compliance) 💎            | ✅ | ✅ | ✅ | ✅ |
+|       | ⮑ [SOC2 Compliance](https://khulnasoft.github.io/mergemate/tools/review/#soc2-ticket-compliance) 💎            | ✅ | ✅ | ✅ | ✅ |
 |       | Describe                                                                                                          | ✅ | ✅ | ✅ | ✅ |
-|       | ⮑ [Inline File Summary](https://mergemate-docs.khulnasoft.com/tools/describe#inline-file-summary) 💎          | ✅ |                    |                    |                    |
+|       | ⮑ [Inline File Summary](https://khulnasoft.github.io/mergemate/tools/describe#inline-file-summary) 💎          | ✅ |                    |                    |                    |
 |       | Improve                                                                                                           | ✅ | ✅ | ✅ | ✅ |
 |       | ⮑ Extended                                                                                                        | ✅ | ✅ | ✅ | ✅ |
 |       | Ask                                                                                                               | ✅ | ✅ | ✅ | ✅ |
-|       | ⮑ [Ask on code lines](https://mergemate-docs.khulnasoft.com/tools/ask#ask-lines)                              | ✅ | ✅ |                    |                    |
-|       | [Custom Suggestions](https://mergemate-docs.khulnasoft.com/tools/custom_suggestions/) 💎                      | ✅ | ✅ | ✅ | ✅ |
-|       | [Test](https://mergemate-docs.khulnasoft.com/tools/test/) 💎                                                  | ✅ | ✅ |                    | ✅ |
+|       | ⮑ [Ask on code lines](https://khulnasoft.github.io/mergemate/tools/ask#ask-lines)                              | ✅ | ✅ |                    |                    |
+|       | [Custom Suggestions](https://khulnasoft.github.io/mergemate/tools/custom_suggestions/) 💎                      | ✅ | ✅ | ✅ | ✅ |
+|       | [Test](https://khulnasoft.github.io/mergemate/tools/test/) 💎                                                  | ✅ | ✅ |                    | ✅ |
 |       | Reflect and Review                                                                                                | ✅ | ✅ | ✅ | ✅ |
 |       | Update CHANGELOG.md                                                                                               | ✅ | ✅ | ✅ | ✅ |
 |       | Find Similar Issue                                                                                                | ✅ |                    |                    |                    |
-|       | [Add PR Documentation](https://mergemate-docs.khulnasoft.com/tools/documentation/) 💎                         | ✅ | ✅ |                   | ✅ |
-|       | [Custom Labels](https://mergemate-docs.khulnasoft.com/tools/custom_labels/) 💎                                | ✅ | ✅ |                    | ✅ |
-|       | [Analyze](https://mergemate-docs.khulnasoft.com/tools/analyze/) 💎                                            | ✅ | ✅ |                    | ✅ |
-|       | [CI Feedback](https://mergemate-docs.khulnasoft.com/tools/ci_feedback/) 💎                                    | ✅ |                    |                    |                    |
-|       | [Similar Code](https://mergemate-docs.khulnasoft.com/tools/similar_code/) 💎                                  | ✅ |                    |                    |                    |
+|       | [Add PR Documentation](https://khulnasoft.github.io/mergemate/tools/documentation/) 💎                         | ✅ | ✅ |                   | ✅ |
+|       | [Custom Labels](https://khulnasoft.github.io/mergemate/tools/custom_labels/) 💎                                | ✅ | ✅ |                    | ✅ |
+|       | [Analyze](https://khulnasoft.github.io/mergemate/tools/analyze/) 💎                                            | ✅ | ✅ |                    | ✅ |
+|       | [CI Feedback](https://khulnasoft.github.io/mergemate/tools/ci_feedback/) 💎                                    | ✅ |                    |                    |                    |
+|       | [Similar Code](https://khulnasoft.github.io/mergemate/tools/similar_code/) 💎                                  | ✅ |                    |                    |                    |
 |       |                                                                                                                   |                    |                    |                    |                    |
 | USAGE | CLI                                                                                                               | ✅ | ✅ | ✅ | ✅ |
 |       | App / webhook                                                                                                     | ✅ | ✅ | ✅ | ✅ |
@@ -109,39 +109,39 @@ Supported commands per platform:
 |       | Repo language prioritization                                                                                      | ✅ | ✅ | ✅ | ✅ |
 |       | Adaptive and token-aware file patch fitting                                                                       | ✅ | ✅ | ✅ | ✅ |
 |       | Multiple models support                                                                                           | ✅ | ✅ | ✅ | ✅ |
-|       | [Static code analysis](https://mergemate-docs.khulnasoft.com/core-abilities/#static-code-analysis) 💎         | ✅ | ✅ | ✅ | ✅ |
-|       | [Global and wiki configurations](https://mergemate-docs.khulnasoft.com/usage-guide/configuration_options/) 💎 | ✅ | ✅ | ✅ | ✅ |
+|       | [Static code analysis](https://khulnasoft.github.io/mergemate/core-abilities/#static-code-analysis) 💎         | ✅ | ✅ | ✅ | ✅ |
+|       | [Global and wiki configurations](https://khulnasoft.github.io/mergemate/usage-guide/configuration_options/) 💎 | ✅ | ✅ | ✅ | ✅ |
 |       | [PR interactive actions](https://www.khulnasoft.com/images/mergemate/pr-actions.mp4) 💎                                 | ✅ |                    |                    |                    |
 - 💎 means this feature is available only in [MergeMate Pro](https://www.khulnasoft.com/pricing/)
 
 [//]: # (- Support for additional git providers is described in [here]&#40;./docs/Full_environments.md&#41;)
 ___
 
-‣ **Auto Description ([`/describe`](https://mergemate-docs.khulnasoft.com/tools/describe/))**: Automatically generating PR description - title, type, summary, code walkthrough and labels.
+‣ **Auto Description ([`/describe`](https://khulnasoft.github.io/mergemate/tools/describe/))**: Automatically generating PR description - title, type, summary, code walkthrough and labels.
 \
-‣ **Auto Review ([`/review`](https://mergemate-docs.khulnasoft.com/tools/review/))**: Adjustable feedback about the PR, possible issues, security concerns, review effort and more.
+‣ **Auto Review ([`/review`](https://khulnasoft.github.io/mergemate/tools/review/))**: Adjustable feedback about the PR, possible issues, security concerns, review effort and more.
 \
-‣ **Code Suggestions ([`/improve`](https://mergemate-docs.khulnasoft.com/tools/improve/))**: Code suggestions for improving the PR.
+‣ **Code Suggestions ([`/improve`](https://khulnasoft.github.io/mergemate/tools/improve/))**: Code suggestions for improving the PR.
 \
-‣ **Question Answering ([`/ask ...`](https://mergemate-docs.khulnasoft.com/tools/ask/))**: Answering free-text questions about the PR.
+‣ **Question Answering ([`/ask ...`](https://khulnasoft.github.io/mergemate/tools/ask/))**: Answering free-text questions about the PR.
 \
-‣ **Update Changelog ([`/update_changelog`](https://mergemate-docs.khulnasoft.com/tools/update_changelog/))**: Automatically updating the CHANGELOG.md file with the PR changes.
+‣ **Update Changelog ([`/update_changelog`](https://khulnasoft.github.io/mergemate/tools/update_changelog/))**: Automatically updating the CHANGELOG.md file with the PR changes.
 \
-‣ **Find Similar Issue ([`/similar_issue`](https://mergemate-docs.khulnasoft.com/tools/similar_issues/))**: Automatically retrieves and presents similar issues.
+‣ **Find Similar Issue ([`/similar_issue`](https://khulnasoft.github.io/mergemate/tools/similar_issues/))**: Automatically retrieves and presents similar issues.
 \
-‣ **Add Documentation 💎  ([`/add_docs`](https://mergemate-docs.khulnasoft.com/tools/documentation/))**: Generates documentation to methods/functions/classes that changed in the PR.
+‣ **Add Documentation 💎  ([`/add_docs`](https://khulnasoft.github.io/mergemate/tools/documentation/))**: Generates documentation to methods/functions/classes that changed in the PR.
 \
-‣ **Generate Custom Labels 💎 ([`/generate_labels`](https://mergemate-docs.khulnasoft.com/tools/custom_labels/))**: Generates custom labels for the PR, based on specific guidelines defined by the user.
+‣ **Generate Custom Labels 💎 ([`/generate_labels`](https://khulnasoft.github.io/mergemate/tools/custom_labels/))**: Generates custom labels for the PR, based on specific guidelines defined by the user.
 \
-‣ **Analyze 💎 ([`/analyze`](https://mergemate-docs.khulnasoft.com/tools/analyze/))**: Identify code components that changed in the PR, and enables to interactively generate tests, docs, and code suggestions for each component.
+‣ **Analyze 💎 ([`/analyze`](https://khulnasoft.github.io/mergemate/tools/analyze/))**: Identify code components that changed in the PR, and enables to interactively generate tests, docs, and code suggestions for each component.
 \
-‣ **Custom Suggestions 💎 ([`/custom_suggestions`](https://mergemate-docs.khulnasoft.com/tools/custom_suggestions/))**: Automatically generates custom suggestions for improving the PR code, based on specific guidelines defined by the user.
+‣ **Custom Suggestions 💎 ([`/custom_suggestions`](https://khulnasoft.github.io/mergemate/tools/custom_suggestions/))**: Automatically generates custom suggestions for improving the PR code, based on specific guidelines defined by the user.
 \
-‣ **Generate Tests 💎 ([`/test component_name`](https://mergemate-docs.khulnasoft.com/tools/test/))**: Generates unit tests for a selected component, based on the PR code changes.
+‣ **Generate Tests 💎 ([`/test component_name`](https://khulnasoft.github.io/mergemate/tools/test/))**: Generates unit tests for a selected component, based on the PR code changes.
 \
-‣ **CI Feedback 💎 ([`/checks ci_job`](https://mergemate-docs.khulnasoft.com/tools/ci_feedback/))**: Automatically generates feedback and analysis for a failed CI job.
+‣ **CI Feedback 💎 ([`/checks ci_job`](https://khulnasoft.github.io/mergemate/tools/ci_feedback/))**: Automatically generates feedback and analysis for a failed CI job.
 \
-‣ **Similar Code 💎 ([`/find_similar_component`](https://mergemate-docs.khulnasoft.com/tools/similar_code/))**: Retrieves the most similar code components from inside the organization's codebase, or from open-source code.
+‣ **Similar Code 💎 ([`/find_similar_component`](https://khulnasoft.github.io/mergemate/tools/similar_code/))**: Retrieves the most similar code components from inside the organization's codebase, or from open-source code.
 ___
 
 ## Example results
@@ -235,7 +235,7 @@ and the agent will respond with a review of your PR
 ![Review generation process](https://www.khulnasoft.com/images/demo-2.gif)
 
 
-To set up your own MergeMate, see the [Installation](https://mergemate-docs.khulnasoft.com/installation/) section below.
+To set up your own MergeMate, see the [Installation](https://khulnasoft.github.io/mergemate/installation/) section below.
 Note that when you set your own MergeMate or use CodiumAI hosted MergeMate, there is no need to mention `@CodiumAI-Agent ...`. Instead, directly start with the command, e.g., `/ask ...`.
 
 ---
@@ -255,28 +255,28 @@ Note that when you set your own MergeMate or use CodiumAI hosted MergeMate, ther
 [//]: # ()
 [//]: # (**Locally**)
 
-[//]: # (- [Using pip package]&#40;https://mergemate-docs.khulnasoft.com/installation/locally/#using-pip-package&#41;)
+[//]: # (- [Using pip package]&#40;https://khulnasoft.github.io/mergemate/installation/locally/#using-pip-package&#41;)
 
-[//]: # (- [Using Docker image]&#40;https://mergemate-docs.khulnasoft.com/installation/locally/#using-docker-image&#41;)
+[//]: # (- [Using Docker image]&#40;https://khulnasoft.github.io/mergemate/installation/locally/#using-docker-image&#41;)
 
-[//]: # (- [Run from source]&#40;https://mergemate-docs.khulnasoft.com/installation/locally/#run-from-source&#41;)
+[//]: # (- [Run from source]&#40;https://khulnasoft.github.io/mergemate/installation/locally/#run-from-source&#41;)
 
 [//]: # ()
 [//]: # (**GitHub specific methods**)
 
-[//]: # (- [Run as a GitHub Action]&#40;https://mergemate-docs.khulnasoft.com/installation/github/#run-as-a-github-action&#41;)
+[//]: # (- [Run as a GitHub Action]&#40;https://khulnasoft.github.io/mergemate/installation/github/#run-as-a-github-action&#41;)
 
-[//]: # (- [Run as a GitHub App]&#40;https://mergemate-docs.khulnasoft.com/installation/github/#run-as-a-github-app&#41;)
+[//]: # (- [Run as a GitHub App]&#40;https://khulnasoft.github.io/mergemate/installation/github/#run-as-a-github-app&#41;)
 
 [//]: # ()
 [//]: # (**GitLab specific methods**)
 
-[//]: # (- [Run a GitLab webhook server]&#40;https://mergemate-docs.khulnasoft.com/installation/gitlab/&#41;)
+[//]: # (- [Run a GitLab webhook server]&#40;https://khulnasoft.github.io/mergemate/installation/gitlab/&#41;)
 
 [//]: # ()
 [//]: # (**BitBucket specific methods**)
 
-[//]: # (- [Run as a Bitbucket Pipeline]&#40;https://mergemate-docs.khulnasoft.com/installation/bitbucket/&#41;)
+[//]: # (- [Run as a Bitbucket Pipeline]&#40;https://khulnasoft.github.io/mergemate/installation/bitbucket/&#41;)
 
 ## MergeMate Pro 💎
 [MergeMate Pro](https://www.khulnasoft.com/pricing/) is a hosted version of MergeMate, provided by CodiumAI. It is available for a monthly fee, and provides the following benefits:
@@ -284,7 +284,7 @@ Note that when you set your own MergeMate or use CodiumAI hosted MergeMate, ther
 2. **Improved privacy** - No data will be stored or used to train models. MergeMate Pro will employ zero data retention, and will use an OpenAI account with zero data retention.
 3. **Improved support** - MergeMate Pro users will receive priority support, and will be able to request new features and capabilities.
 4. **Extra features** -In addition to the benefits listed above, MergeMate Pro will emphasize more customization, and the usage of static code analysis, in addition to LLM logic, to improve results. 
-See [here](https://mergemate-docs.khulnasoft.com/#mergemate-pro) for a list of features available in MergeMate Pro.
+See [here](https://khulnasoft.github.io/mergemate/#mergemate-pro) for a list of features available in MergeMate Pro.
 
 
 
@@ -294,7 +294,7 @@ The following diagram illustrates MergeMate tools and their flow:
 
 ![MergeMate Tools](https://khulnasoft.com/images/mergemate/diagram-v0.9.png)
 
-Check out the [PR Compression strategy](https://mergemate-docs.khulnasoft.com/core-abilities/#pr-compression-strategy) page for more details on how we convert a code diff to a manageable LLM prompt
+Check out the [PR Compression strategy](https://khulnasoft.github.io/mergemate/core-abilities/#pr-compression-strategy) page for more details on how we convert a code diff to a manageable LLM prompt
 
 ## Why use MergeMate?
 
@@ -303,7 +303,7 @@ A reasonable question that can be asked is: `"Why use MergeMate? What makes it s
 Here are some advantages of MergeMate:
 
 - We emphasize **real-life practical usage**. Each tool (review, improve, ask, ...) has a single GPT-4 call, no more. We feel that this is critical for realistic team usage - obtaining an answer quickly (~30 seconds) and affordably.
-- Our [PR Compression strategy](https://mergemate-docs.khulnasoft.com/core-abilities/#pr-compression-strategy)  is a core ability that enables to effectively tackle both short and long PRs.
+- Our [PR Compression strategy](https://khulnasoft.github.io/mergemate/core-abilities/#pr-compression-strategy)  is a core ability that enables to effectively tackle both short and long PRs.
 - Our JSON prompting strategy enables to have **modular, customizable tools**. For example, the '/review' tool categories can be controlled via the [configuration](mergemate/settings/configuration.toml) file. Adding additional categories is easy and accessible.
 - We support **multiple git providers** (GitHub, Gitlab, Bitbucket), **multiple ways** to use the tool (CLI, GitHub Action, GitHub App, Docker, ...), and **multiple models** (GPT-4, GPT-3.5, Anthropic, Cohere, Llama2).
 

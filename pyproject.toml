@@ -32,7 +32,7 @@ dependencies = {file = ["requirements.txt"]}
 
 [project.urls]
 "Homepage" = "https://github.com/Khulnasoft/mergemate"
-"Documentation" = "https://mergemate-docs.khulnasoft.com/"
+"Documentation" = "https://khulnasoft.github.io/mergemate/"
 
 [tool.setuptools]
 include-package-data = true

@@ -2,7 +2,7 @@
 ## Getting Started with MergeMate Pro
 
 MergeMate Pro is a versatile application compatible with GitHub, GitLab, and BitBucket, hosted by CodiumAI.
-See [here](https://mergemate-docs.khulnasoft.com/#mergemate-pro) for more details about the benefits of using MergeMate Pro.
+See [here](https://khulnasoft.github.io/mergemate/#mergemate-pro) for more details about the benefits of using MergeMate Pro.
 
 Interested parties can subscribe to MergeMate Pro through the following [link](https://www.khulnasoft.com/pricing/). 
 After subscribing, you are granted the ability to easily install the application across any of your repositories.

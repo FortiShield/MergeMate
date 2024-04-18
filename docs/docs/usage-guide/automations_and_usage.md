@@ -127,7 +127,7 @@ If not set, the default configuration is for all three tools to run automaticall
 Review result is output as JSON to `steps.{step-id}.outputs.review` property.
 The JSON structure is equivalent to the yaml data structure defined in [pr_reviewer_prompts.toml](https://github.com/idubnori/mergemate/blob/main/mergemate/settings/pr_reviewer_prompts.toml).
 
-Note that you can give additional config parameters by adding environment variables to `.github/workflows/mergemate.yml`, or by using a `.mergemate.toml` [configuration file](https://mergemate-docs.khulnasoft.com/usage-guide/configuration_options/#global-configuration-file) in the root of your repo
+Note that you can give additional config parameters by adding environment variables to `.github/workflows/mergemate.yml`, or by using a `.mergemate.toml` [configuration file](https://khulnasoft.github.io/mergemate/usage-guide/configuration_options/#global-configuration-file) in the root of your repo
 
 For example, you can set an environment variable: `pr_description.publish_labels=false`, or add a `.mergemate.toml` file with the following content:
 ```

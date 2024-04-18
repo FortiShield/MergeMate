@@ -1396,7 +1396,7 @@ The tool can be triggered automatically every time a new PR is <a href="../../us
 <p>Note that a single comment has a significantly smaller PR footprint. We recommend this mode for most cases.
 Also note that collapsible are not supported in <em>Bitbucket</em>. Hence, the suggestions are presented there as code comments.</p>
 <h3 id="automatic-triggering">Automatic triggering<a class="headerlink" href="#automatic-triggering" title="Permanent link">&para;</a></h3>
-<p>To run the <code>improve</code> automatically when a PR is opened, define in a <a href="https://mergemate-docs.khulnasoft.com/usage-guide/configuration_options/#wiki-configuration-file">configuration file</a>:
+<p>To run the <code>improve</code> automatically when a PR is opened, define in a <a href="https://khulnasoft.github.io/mergemate/usage-guide/configuration_options/#wiki-configuration-file">configuration file</a>:
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>[github_app]
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>pr_commands = [
 <a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    &quot;/improve&quot;,
@@ -1464,7 +1464,7 @@ Use triple quotes to write multi-line instructions. Use bullet points to make th
 <div class="admonition tip">
 <p class="admonition-title">Review vs. Improve tools comparison</p>
 <ul>
-<li>The <a href="https://mergemate-docs.khulnasoft.com/tools/review/"><code>review</code></a> tool includes a section called 'Possible issues', that also provide feedback on the PR Code.
+<li>The <a href="https://khulnasoft.github.io/mergemate/tools/review/"><code>review</code></a> tool includes a section called 'Possible issues', that also provide feedback on the PR Code.
 In this section, the model is instructed to focus <strong>only</strong> on <a href="https://github.com/Khulnasoft/mergemate/blob/main/mergemate/settings/pr_reviewer_prompts.toml#L71">major bugs and issues</a>.</li>
 <li>The <code>improve</code> tool, on the other hand, has a broader mandate, and in addition to bugs and issues, it can also give suggestions for improving code quality and making the code more efficient, readable, and maintainable (see <a href="https://github.com/Khulnasoft/mergemate/blob/main/mergemate/settings/pr_code_suggestions_prompts.toml#L34">here</a>).</li>
 <li>Hence, if you are interested only in feedback about clear bugs, the <code>review</code> tool might suffice. If you want a more detailed feedback, including broader suggestions for improving the PR code, also enable the <code>improve</code> tool to run on each PR.</li>
@@ -1473,7 +1473,7 @@ In this section, the model is instructed to focus <strong>only</strong> on <a hr
 <h2 id="a-note-on-code-suggestions-quality">A note on code suggestions quality<a class="headerlink" href="#a-note-on-code-suggestions-quality" title="Permanent link">&para;</a></h2>
 <ul>
 <li>While the current AI for code is getting better and better (GPT-4), it's not flawless. Not all the suggestions will be perfect, and a user should not accept all of them automatically. Critical reading and judgment are required.</li>
-<li>While mistakes of the AI are rare but can happen, a real benefit from the suggestions of the <code>improve</code> (and <a href="https://mergemate-docs.khulnasoft.com/tools/review/"><code>review</code></a>) tool is to catch, with high probability, <strong>mistakes or bugs done by the PR author</strong>, when they happen. So, it's a good practice to spend the needed ~30-60 seconds to review the suggestions, even if not all of them are always relevant.</li>
+<li>While mistakes of the AI are rare but can happen, a real benefit from the suggestions of the <code>improve</code> (and <a href="https://khulnasoft.github.io/mergemate/tools/review/"><code>review</code></a>) tool is to catch, with high probability, <strong>mistakes or bugs done by the PR author</strong>, when they happen. So, it's a good practice to spend the needed ~30-60 seconds to review the suggestions, even if not all of them are always relevant.</li>
 <li>
 <p>The hierarchical structure of the suggestions is designed to help the user to <em>quickly</em> understand them, and to decide which ones are relevant and which are not:</p>
 <ul>

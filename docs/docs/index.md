@@ -16,10 +16,10 @@ MergeMate offers extensive pull request functionalities across various git provi
 |-------|---------------------------------------------------------------------------------------------------------------------|:------:|:------:|:---------:|:------------:|
 | TOOLS | Review                                                                                                              |   ✅    |   ✅    |   ✅       |      ✅      |
 |       | ⮑ Incremental                                                                                                       |   ✅    |        |            |              |
-|       | ⮑ [SOC2 Compliance](https://mergemate-docs.khulnasoft.com/tools/review/#soc2-ticket-compliance){:target="_blank"} 💎                                     |   ✅    |   ✅    |   ✅        |      ✅      |
+|       | ⮑ [SOC2 Compliance](https://khulnasoft.github.io/mergemate/tools/review/#soc2-ticket-compliance){:target="_blank"} 💎                                     |   ✅    |   ✅    |   ✅        |      ✅      |
 |       | Ask                                                                                                                 |   ✅    |   ✅    |   ✅        |      ✅      |
 |       | Describe                                                                                                            |   ✅    |   ✅    |   ✅        |      ✅      |
-|       | ⮑ [Inline file summary](https://mergemate-docs.khulnasoft.com/tools/describe/#inline-file-summary){:target="_blank"} 💎                                 |   ✅    |   ✅    |           |      ✅      |
+|       | ⮑ [Inline file summary](https://khulnasoft.github.io/mergemate/tools/describe/#inline-file-summary){:target="_blank"} 💎                                 |   ✅    |   ✅    |           |      ✅      |
 |       | Improve                                                                                                             |   ✅    |   ✅    |   ✅        |      ✅      |
 |       | ⮑ Extended                                                                                                          |   ✅    |   ✅    |   ✅        |      ✅      |
 |       | [Custom Suggestions](./tools/custom_suggestions.md){:target="_blank"} 💎                                               |   ✅    |   ✅    |   ✅        |      ✅      |
@@ -94,14 +94,14 @@ Check out the [PR Compression strategy](core-abilities/index.md) page for more d
     - (Tool): [**Custom Code Suggestions**](./tools/custom_suggestions.md/)
     - (Tool): [**Tests**](./tools/test.md/)
     - (Tool): [**PR documentation**](./tools/documentation.md/)
-    - (Tool): [**Improve Component**](https://mergemate-docs.khulnasoft.com/tools/improve_component/)
-    - (Tool): [**Similar code search**](https://mergemate-docs.khulnasoft.com/tools/similar_code/)
+    - (Tool): [**Improve Component**](https://khulnasoft.github.io/mergemate/tools/improve_component/)
+    - (Tool): [**Similar code search**](https://khulnasoft.github.io/mergemate/tools/similar_code/)
     - (Tool): [**CI feedback**](./tools/ci_feedback.md/)
     - (Feature): [**Interactive triggering**](./usage-guide/automations_and_usage.md/#interactive-triggering)
     - (Feature): [**SOC2 compliance check**](./tools/review.md/#soc2-ticket-compliance)
     - (Feature): [**Custom labels**](./tools/describe.md/#handle-custom-labels-from-the-repos-labels-page)
     - (Feature): [**Global and wiki configuration**](./usage-guide/configuration_options.md/#wiki-configuration-file)
-    - (Feature): [**Inline file summary**](https://mergemate-docs.khulnasoft.com/tools/describe/#inline-file-summary)
+    - (Feature): [**Inline file summary**](https://khulnasoft.github.io/mergemate/tools/describe/#inline-file-summary)
 
    
 ## Data Privacy

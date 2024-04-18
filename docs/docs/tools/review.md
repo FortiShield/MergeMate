@@ -24,7 +24,7 @@ If you want to edit [configurations](#configuration-options), add the relevant o
 
 ### Automatic triggering
 
-To run the `review` automatically when a PR is opened, define in a [configuration file](https://mergemate-docs.khulnasoft.com/usage-guide/configuration_options/#wiki-configuration-file):
+To run the `review` automatically when a PR is opened, define in a [configuration file](https://khulnasoft.github.io/mergemate/usage-guide/configuration_options/#wiki-configuration-file):
 ```
 [github_app]
 pr_commands = [

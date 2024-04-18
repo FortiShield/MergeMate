@@ -1,1 +1,1 @@
-# [Visit Our Docs Portal](https://mergemate-docs.khulnasoft.com/)
+# [Visit Our Docs Portal](https://khulnasoft.github.io/mergemate/)

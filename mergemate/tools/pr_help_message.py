@@ -21,7 +21,7 @@ class PRHelpMessage:
             pr_comment = "## PR Agent Walkthrough\n\n"
             pr_comment += "🤖 Welcome to the PR Agent, an AI-powered tool for automated pull request analysis, feedback, suggestions and more."""
             pr_comment += "\n\nHere is a list of tools you can use to interact with the PR Agent:\n"
-            base_path = "https://mergemate-docs.khulnasoft.com/tools"
+            base_path = "https://khulnasoft.github.io/mergemate/tools"
 
             tool_names = []
             tool_names.append(f"[DESCRIBE]({base_path}/describe/)")
@@ -98,7 +98,7 @@ class PRHelpMessage:
                 for i in range(len(tool_names)):
                     pr_comment += f"\n<tr><td align='left'>\n\n<strong>{tool_names[i]}</strong></td><td>{commands[i]}</td><td>{descriptions[i]}</td></tr>"
                 pr_comment += "</table>\n\n"
-                pr_comment += f"""\n\nNote that each tool be [invoked automatically](https://mergemate-docs.khulnasoft.com/usage-guide/automations_and_usage/) when a new PR is opened, or called manually by [commenting on a PR](https://mergemate-docs.khulnasoft.com/usage-guide/automations_and_usage/#online-usage)."""
+                pr_comment += f"""\n\nNote that each tool be [invoked automatically](https://khulnasoft.github.io/mergemate/usage-guide/automations_and_usage/) when a new PR is opened, or called manually by [commenting on a PR](https://khulnasoft.github.io/mergemate/usage-guide/automations_and_usage/#online-usage)."""
             if get_settings().config.publish_output:
                 self.git_provider.publish_comment(pr_comment)
         except Exception as e:
